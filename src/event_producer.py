@@ -1,5 +1,8 @@
 from event_topic import EventTopic
-
+try:
+    from .event_topic import EventTopic
+except ImportError:  
+    from event_topic import EventTopic
 
 class EventProducer:
     """Publishes anomaly events to an in-memory topic."""
