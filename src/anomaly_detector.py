@@ -37,3 +37,4 @@ class AnomalyDetector:
             "reasons": reasons,
             "source": record
         }
+
